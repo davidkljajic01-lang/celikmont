@@ -5,6 +5,9 @@ backend:
   repo: davidkljajic01-lang/celikmont
   branch: main
 
+logo:
+  src: /admin/logo.svg
+
 media_folder: uploads/projekti
 public_folder: /uploads/projekti
 
