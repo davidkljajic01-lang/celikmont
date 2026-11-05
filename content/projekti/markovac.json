@@ -1,0 +1,15 @@
+{
+  "naziv": "Hala s panelnom fasadom",
+  "redoslijed": 3,
+  "investitor": "",
+  "lokacija": "Markovac",
+  "opseg": "",
+  "godina": "",
+  "slike": [
+    "/uploads/projekti/markovac/01.jpg",
+    "/uploads/projekti/markovac/02.jpg",
+    "/uploads/projekti/markovac/03.jpg",
+    "/uploads/projekti/markovac/04.jpg",
+    "/uploads/projekti/markovac/05.jpg"
+  ]
+}

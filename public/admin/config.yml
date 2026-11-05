@@ -1,0 +1,34 @@
+# Admin sučelje (Sveltia CMS) na https://celikmont.hr/admin/
+# Prijava: GitHub račun s pristupom repozitoriju (gumb "Sign in with GitHub Token").
+backend:
+  name: github
+  repo: davidkljajic01-lang/celikmont
+  branch: main
+
+media_folder: uploads/projekti
+public_folder: /uploads/projekti
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: projekti
+    label: Završeni objekti
+    label_singular: objekt
+    folder: content/projekti
+    extension: json
+    format: json
+    create: true
+    slug: "{{naziv}}"
+    identifier_field: naziv
+    summary: "{{naziv}} {{lokacija}}"
+    sortable_fields: [redoslijed, naziv]
+    fields:
+      - { label: Naziv, name: naziv, widget: string, hint: "Npr. Hala u Našicama" }
+      - { label: Redoslijed, name: redoslijed, widget: number, value_type: int, default: 50, hint: "Manji broj je ranije na stranici. Novi objekt stavite na 1 da bude prvi." }
+      - { label: Fotografije, name: slike, widget: image, choose_url: false, multiple: true, hint: "Prva fotografija je naslovna." }
+      - { label: Investitor, name: investitor, widget: string, required: false }
+      - { label: Lokacija, name: lokacija, widget: string, required: false }
+      - { label: Opseg radova, name: opseg, widget: string, required: false }
+      - { label: Godina, name: godina, widget: string, required: false }

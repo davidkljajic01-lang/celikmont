@@ -1,0 +1,15 @@
+{
+  "naziv": "Hala",
+  "redoslijed": 6,
+  "investitor": "Željezar",
+  "lokacija": "Čačinci",
+  "opseg": "",
+  "godina": "",
+  "slike": [
+    "/uploads/projekti/zeljezar-cacinci/01.jpg",
+    "/uploads/projekti/zeljezar-cacinci/02.jpg",
+    "/uploads/projekti/zeljezar-cacinci/03.jpg",
+    "/uploads/projekti/zeljezar-cacinci/04.jpg",
+    "/uploads/projekti/zeljezar-cacinci/05.jpg"
+  ]
+}
